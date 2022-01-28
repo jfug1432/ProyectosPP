@@ -70,6 +70,7 @@ namespace ProyectosPP
             this.promedioDeTresCalificacionesToolStripMenuItem.Name = "promedioDeTresCalificacionesToolStripMenuItem";
             this.promedioDeTresCalificacionesToolStripMenuItem.Size = new System.Drawing.Size(299, 26);
             this.promedioDeTresCalificacionesToolStripMenuItem.Text = "Promedio de tres calificaciones";
+            this.promedioDeTresCalificacionesToolStripMenuItem.Click += new System.EventHandler(this.promedioDeTresCalificacionesToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 

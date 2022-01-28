@@ -27,5 +27,11 @@ namespace ProyectosPP
         {
             Close();
         }
+
+        private void promedioDeTresCalificacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProyectosPP.PROYECTOSPOO.promediodetrescalificaciones promedio = new PROYECTOSPOO.promediodetrescalificaciones();
+            promedio.Show();
+        }
     }
 }
