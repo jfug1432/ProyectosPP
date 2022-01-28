@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ProyectosPP
+{
+    public partial class menu : Form
+    {
+        public menu()
+        {
+            InitializeComponent();
+        }
+
+        private void sumaDeDosNúmerosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            calculosaritmeticos ca = new calculosaritmeticos();
+            ca.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+}
