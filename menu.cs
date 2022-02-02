@@ -33,5 +33,11 @@ namespace ProyectosPP
             ProyectosPP.PROYECTOSPOO.promediodetrescalificaciones promedio = new PROYECTOSPOO.promediodetrescalificaciones();
             promedio.Show();
         }
+
+        private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PROYECTOSPOO.calculadora x = new PROYECTOSPOO.calculadora();
+            x.Show();
+        }
     }
 }

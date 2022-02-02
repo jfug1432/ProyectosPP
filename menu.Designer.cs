@@ -34,6 +34,7 @@ namespace ProyectosPP
             this.sumaDeDosNúmerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.promedioDeTresCalificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +54,8 @@ namespace ProyectosPP
             // 
             this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sumaDeDosNúmerosToolStripMenuItem,
-            this.promedioDeTresCalificacionesToolStripMenuItem});
+            this.promedioDeTresCalificacionesToolStripMenuItem,
+            this.calculadoraToolStripMenuItem});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
             this.programasToolStripMenuItem.Text = "Programas";
@@ -78,6 +80,13 @@ namespace ProyectosPP
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // calculadoraToolStripMenuItem
+            // 
+            this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(299, 26);
+            this.calculadoraToolStripMenuItem.Text = "Calculadora";
+            this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
             // 
             // menu
             // 
@@ -105,6 +114,7 @@ namespace ProyectosPP
         private System.Windows.Forms.ToolStripMenuItem sumaDeDosNúmerosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem promedioDeTresCalificacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calculadoraToolStripMenuItem;
     }
 }
 

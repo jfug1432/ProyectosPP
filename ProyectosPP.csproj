@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLASES\CLCALCULA.cs" />
+    <Compile Include="CLASES\CLPROMEDIO.cs" />
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +56,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PROYECTOSPOO\calculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROYECTOSPOO\calculadora.Designer.cs">
+      <DependentUpon>calculadora.cs</DependentUpon>
+    </Compile>
     <Compile Include="PROYECTOSPOO\calculosaritmeticos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +86,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PROYECTOSPOO\calculadora.resx">
+      <DependentUpon>calculadora.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PROYECTOSPOO\calculosaritmeticos.resx">
       <DependentUpon>calculosaritmeticos.cs</DependentUpon>
     </EmbeddedResource>
