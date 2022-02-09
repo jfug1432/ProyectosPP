@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLASES\CLCALCULA.cs" />
+    <Compile Include="CLASES\CLCALCULADORA.cs" />
     <Compile Include="CLASES\CLPROMEDIO.cs" />
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
