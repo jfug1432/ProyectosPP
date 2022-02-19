@@ -39,5 +39,11 @@ namespace ProyectosPP
             PROYECTOSPOO.calculadora x = new PROYECTOSPOO.calculadora();
             x.Show();
         }
+
+        private void arreglosBidimensionalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PROYECTOSPOO.arreglosbidimencionales X = new PROYECTOSPOO.arreglosbidimencionales();
+            X.Show();
+        }
     }
 }
