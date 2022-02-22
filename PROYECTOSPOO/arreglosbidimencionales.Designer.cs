@@ -38,41 +38,44 @@ namespace ProyectosPP.PROYECTOSPOO
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnmostrar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(79, 79);
+            this.label1.Location = new System.Drawing.Point(59, 64);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 17);
+            this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Valores";
             // 
             // txtvalor
             // 
-            this.txtvalor.Location = new System.Drawing.Point(156, 79);
-            this.txtvalor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtvalor.Location = new System.Drawing.Point(117, 64);
+            this.txtvalor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtvalor.Name = "txtvalor";
-            this.txtvalor.Size = new System.Drawing.Size(100, 22);
+            this.txtvalor.Size = new System.Drawing.Size(76, 20);
             this.txtvalor.TabIndex = 1;
             // 
             // txttamaño
             // 
-            this.txttamaño.Location = new System.Drawing.Point(156, 25);
-            this.txttamaño.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txttamaño.Location = new System.Drawing.Point(117, 20);
+            this.txttamaño.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txttamaño.Name = "txttamaño";
-            this.txttamaño.Size = new System.Drawing.Size(100, 22);
+            this.txttamaño.Size = new System.Drawing.Size(76, 20);
             this.txttamaño.TabIndex = 3;
             this.txttamaño.TextChanged += new System.EventHandler(this.txttamaño_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(79, 25);
+            this.label2.Location = new System.Drawing.Point(59, 20);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 17);
+            this.label2.Size = new System.Drawing.Size(46, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tamaño";
             // 
@@ -82,12 +85,12 @@ namespace ProyectosPP.PROYECTOSPOO
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(79, 137);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(59, 111);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(305, 221);
+            this.dataGridView1.Size = new System.Drawing.Size(229, 180);
             this.dataGridView1.TabIndex = 4;
             // 
             // Column1
@@ -106,10 +109,10 @@ namespace ProyectosPP.PROYECTOSPOO
             // 
             // btnmostrar
             // 
-            this.btnmostrar.Location = new System.Drawing.Point(401, 73);
-            this.btnmostrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnmostrar.Location = new System.Drawing.Point(301, 59);
+            this.btnmostrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnmostrar.Name = "btnmostrar";
-            this.btnmostrar.Size = new System.Drawing.Size(83, 39);
+            this.btnmostrar.Size = new System.Drawing.Size(62, 32);
             this.btnmostrar.TabIndex = 5;
             this.btnmostrar.Text = "Mostrar";
             this.btnmostrar.UseVisualStyleBackColor = true;
@@ -117,20 +120,32 @@ namespace ProyectosPP.PROYECTOSPOO
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(281, 73);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(211, 59);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 39);
+            this.button1.Size = new System.Drawing.Size(62, 32);
             this.button1.TabIndex = 6;
             this.button1.Text = "Agregar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(380, 59);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(62, 32);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Limpiar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // arreglosbidimencionales
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnmostrar);
             this.Controls.Add(this.dataGridView1);
@@ -138,7 +153,7 @@ namespace ProyectosPP.PROYECTOSPOO
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtvalor);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "arreglosbidimencionales";
             this.Text = "arreglosbidimencionales";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -158,5 +173,6 @@ namespace ProyectosPP.PROYECTOSPOO
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.Button btnmostrar;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

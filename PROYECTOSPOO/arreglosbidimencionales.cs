@@ -22,7 +22,7 @@ namespace ProyectosPP.PROYECTOSPOO
         private void button1_Click(object sender, EventArgs e)
         {
             contador++; //contador=contador + 1;
-            r++;
+            r++; // r=r+1 incrementa el renglón 
             if (contador > (tamaño*2)) MessageBox.Show("lleno");
                         else
             {
@@ -50,20 +50,19 @@ namespace ProyectosPP.PROYECTOSPOO
 
         private void btnmostrar_Click(object sender, EventArgs e)
         {
-
-            C=0;
-            int r = 0;
-            contador = 1;
-            DataGridViewColumn col;
-            DataGridViewRow row;// = new DataGridViewRow ();
-            while (r<tamaño)
+            
+            C=0; //  Poner en 0 la columna
+            int r = 0; // Poner en 0 el renglon
+            DataGridViewRow row; // creamos el objeto renglón
+            for(int rr=0;rr<tamaño;rr++)
+          //  while (r<tamaño) // Ciclo 
             {
                 row = new DataGridViewRow();
                 row.CreateCells(this.dataGridView1);
-                while (C < 2)
+                for(int CC=0;CC<2;CC++)
+              //  while (C < 2)
                 {
-                    row.Cells[C].Value = arreglo[r, C];
-                    
+                    row.Cells[CC].Value = arreglo[rr, CC];      
                     C++;
                 }
                 this.dataGridView1.Rows.Add(row);
@@ -72,6 +71,13 @@ namespace ProyectosPP.PROYECTOSPOO
             }
            
            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            contador = 0;
+            Array.Clear(arreglo, 0, arreglo.Length);
+            dataGridView1.Rows.Clear();
         }
     }
 }
