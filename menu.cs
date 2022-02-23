@@ -45,5 +45,11 @@ namespace ProyectosPP
             PROYECTOSPOO.arreglosbidimencionales X = new PROYECTOSPOO.arreglosbidimencionales();
             X.Show();
         }
+
+        private void arregloMultidimensionalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PROYECTOSPOO.Frm_multidimensional f = new PROYECTOSPOO.Frm_multidimensional();
+            f.Show();
+        }
     }
 }
